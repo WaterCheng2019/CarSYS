@@ -1,0 +1,111 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CarSYSMasterPage.master.cs" Inherits="CarSYS.CarSYSMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            height:100%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /*#container {
+            background-color: #000;
+            width: 100%;
+            height:100%;
+            margin: 0 auto;
+        }*/
+
+        div#header {
+            width: 100%;
+            height: 96px;
+            line-height: 96px;
+            background-color: pink;
+            font-family: "微软雅黑";
+            font-size: 14px;
+        }
+
+        div#meun {
+            /*width: 270px;*/
+            width: 15%;
+            height:720px;
+            float: left;
+            background-color: #ABCDEF;
+            font-family: "微软雅黑";
+            font-size: 14px;
+        }
+
+        div#middle {
+            float: right;
+            height: 90%;
+            background-color: #0087EF;
+            width: 85%;
+        }
+
+        div#content {
+            width: 100%;
+            /*height: 700px;*/
+            height:720px;
+            background-color: #FFFFFF;
+        }
+
+        div#footer {
+            clear: both;
+            width: 100%;
+            height: 96px;
+            line-height: 96px;
+            text-align: center;
+            background-color: pink;
+            font-family: "微软雅黑";
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+
+
+        <form id="myForm" runat="server">
+            <!--页眉-->
+            <div id="header"></div>
+
+            <!--导航栏-->
+            <div id="meun">
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1"></asp:TreeView>
+            </div>
+
+            <div id="middle">
+                <!--内容页-->
+
+                <div id="content">
+                        <p style="font-size: 14px; margin: 20px">
+                            你当前所在的位置：
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
+                        </p>
+
+                        <asp:ContentPlaceHolder ID="Contents" runat="server"></asp:ContentPlaceHolder>
+                </div>
+
+            </div>
+
+            <!--页脚-->
+            <div id="footer">
+                <asp:Label ID="lblInfo" runat="server" Text="Label"></asp:Label>
+            </div>
+        </form>
+
+</body>
+</html>

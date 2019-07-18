@@ -1,0 +1,9 @@
+C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSBLL\bin\Debug\CarSYSBLL.dll
+C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSBLL\bin\Debug\CarSYSBLL.pdb
+C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSBLL\bin\Debug\CarSYSDAL.dll
+C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSBLL\bin\Debug\CarSYSModels.dll
+C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSBLL\bin\Debug\CarSYSDAL.pdb
+C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSBLL\bin\Debug\CarSYSModels.pdb
+C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSBLL\obj\Debug\CarSYSBLL.csprojResolveAssemblyReference.cache
+C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSBLL\obj\Debug\CarSYSBLL.dll
+C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSBLL\obj\Debug\CarSYSBLL.pdb

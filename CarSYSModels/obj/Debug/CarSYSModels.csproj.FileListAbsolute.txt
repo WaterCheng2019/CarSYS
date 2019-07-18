@@ -1,0 +1,5 @@
+C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSModels\bin\Debug\CarSYSModels.dll
+C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSModels\bin\Debug\CarSYSModels.pdb
+C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSModels\obj\Debug\CarSYSModels.dll
+C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSModels\obj\Debug\CarSYSModels.pdb
+C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSModels\obj\Debug\CarSYSModels.csprojResolveAssemblyReference.cache

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Default.aspx" title="车辆信息管理系统"  description="">
+
+      <siteMapNode url="" title ="车辆管理" description="">
+        <siteMapNode url="~/Page/Car/CarDataGrid.aspx" title="车辆列表DG"  description="" />
+        <siteMapNode url="~/Page/Car/CarDataList.aspx" title="车辆列表DL"  description=""/>
+        <siteMapNode url="~/Page/Car/CarRepeater.aspx" title="车辆列表RP"  description="" />
+        
+        <siteMapNode url="~/Page/Car/CarUserControl.aspx" title="车辆详情UC"  description="" />
+        <siteMapNode url="~/Page/Car/CarDetailsView.aspx" title="车辆详情DV"  description="" />      
+        <siteMapNode url="~/Page/Car/AddCar.aspx" title="增加车辆"  description="" />
+      </siteMapNode>
+
+      
+      <siteMapNode url="" title ="品牌管理" description="">
+        <siteMapNode url="" title="品牌列表DG"  description="" />
+        <siteMapNode url="" title="品牌列表DL"  description="" />
+        <siteMapNode url="" title="品牌列表RP"  description="" />
+        
+        <siteMapNode url="" title="品牌详情UC"  description="" />
+        <siteMapNode url="" title="品牌详情DV"  description="" />
+        <siteMapNode url="" title="增加品牌"  description="" />
+      </siteMapNode>
+      
+      <siteMapNode url="" title ="用户管理" description="">
+        <siteMapNode url="" title="用户列表DG"  description="" />
+        <siteMapNode url="" title="用户列表DL"  description="" />
+        <siteMapNode url="" title="用户列表RP"  description="" />
+        <siteMapNode url="" title="用户详情UC"  description="" />
+        <siteMapNode url="" title="用户详情DV"  description="" />
+        <siteMapNode url="" title="增加用户"  description="" />
+      </siteMapNode>
+
+      <siteMapNode url="" title ="销售管理" description="">
+        <siteMapNode url="" title="销售记录"  description="" />
+      </siteMapNode>
+       
+    </siteMapNode>
+</siteMap>

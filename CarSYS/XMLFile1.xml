@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<t t-name="oscg_valve_plan.report_production_process_order_valve">
+  <t t-call="web.html_container">
+    <t t-foreach="docs" t-as="o">
+      <t t-call="web.internal_layout">
+        <div class="page">
+          
+          <!--头部-->
+          <div style="text-align:center;vertical-align:middle;">
+            <h2>装 配 流 程 卡</h2>
+          </div>
+            
+          <!--主题-->
+          <div style="padding-top:30px;font-size:18px;">
+            <style>
+              #table2 th,td {
+              border:1px solid #000;
+              text-align:center;
+              vertical-align:middle;
+              line_height:40px;
+              }
+              #table2 th.key {
+              width:15px;
+              }
+            </style>
+ 
+            <div class="text-align:center;">
+              <h2>
+                公司:<span t-esc="o.company_id.name"/>
+              </h2>
+            </div>
+            
+            <div class="row" style="font-size:18px;text-align:left;">
+              <div class="col-xs-3">
+                <span>
+                  客户:<span t-esc="o.partner_id.name"/>
+                </span>
+              </div>
+              <div class="col-xs-3">
+                <span>
+                  交货日期：
+                  <span t-field="o.delivery_date" t-field-options="{&quot;widget&quot;: &quot;date&quot;}"/>
+                </span>
+              </div>
+              <div class="col-xs-3">
+                <span>装配日期：</span>
+              </div>
+            </div>
+            <div class="row" style="font-size:18px;text-align:left;">
+              <span>
+                订单号：<span t-esc="o.sale_id.name"/>
+              </span>
+              <br/>
+              <span>
+                计划单号：<span t-esc="o.name"/>
+              </span>
+            </div>
+            
+            <table id="table2" class="border:1px solid #000;">
+              <thead>
+                <tr>
+                  <th width="2%">
+                    <strong>序号</strong>
+                  </th>
+                  <th class="key">
+                    <strong>入库码</strong>
+                  </th>
+                  <!--<th width="10%">-->
+                  <!--<strong>产品名称</strong>-->
+                  <!--</th>-->
+                  
+                  
+                  <!--循环动态生成单元格-->
+                  <t t-foreach="fields" t-as="field">
+                    <th class="key">
+                      <strong>
+                        <span t-esc="field"/>
+                      </strong>
+                    </th>
+                  </t>
+                  
+                  
+                  <th class="key">
+                    <strong>订单数</strong>
+                  </th>
+                  <th class="key">
+                    <strong>组装数</strong>
+                  </th>
+                  <th class="key">
+                    <strong>序列号</strong>
+                  </th>
+                  <th class="key">
+                    <strong>工序条码</strong>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <t t-foreach="filter(lambda p:p.get('id',False)==o.id, planfin_ids)" t-as="l">
+                  <tr>
+
+                    <td>
+                      <span t-esc="l.get('sale_order_line_seq','')"/>
+                    </td>
+                    <td>
+                      <t t-if="l.get('mo_name','')">
+                        < img t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('QR', l.get('mo_name'), 100, 100)"/>
+                      </t>
+                    </td>
+                    <td>
+                      777<span t-esc="l.get('name','')"/>
+                    </td>
+                    <t t-foreach="l.get('values',[])" t-as="value">
+                      <td>
+                        <span t-esc="value"/>
+                      </td>
+                    </t>
+
+                    <td>
+                      <span t-esc="l.get('order_qty','')"/>
+                    </td>
+                    <td>
+                      <span t-esc="l.get('product_qty','')"/>
+                    </td>
+                    <td>
+                      <span t-esc="l.get('serial_myno','')"/>
+                    </td>
+                    <td>
+                      <t t-if="l.get('wonumber','')">
+                        < img t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('QR', l.get('wonumber'), 100, 100)"/>
+                      </t>
+                    </td>
+                  </tr>
+                </t>
+              </tbody>
+            </table>
+          </div>
+          
+          <!--页脚-->
+          <div>
+            <table class="table table_bordered" id="table1">
+              <tr>
+                <td width="5%" style="text-align:left;">
+                  <strong>备注</strong>
+                </td>
+                <td width="95%" style="text-align:left;">
+                  <span t-esc="o.sale_id.note"/>
+                </td>
+              </tr>
+              <tr>
+                <td width="5%"/>
+                <td width="95%" style="text-align:left;font-size : 16px;">
+                  <strong>装配：</strong>
+                  <br/>
+                  <strong>检验：</strong>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </t>
+    </t>
+  </t>
+</t>
