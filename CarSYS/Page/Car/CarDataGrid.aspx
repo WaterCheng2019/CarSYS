@@ -63,7 +63,7 @@
                     <EditItemTemplate>
                         <%--<asp:TextBox ID="TextBox4" runat="server" Text='<%# Eval("Picture") %>'></asp:TextBox>--%>
 
-                        <asp:FileUpload ID="fuPic" runat="server" Width="190" />
+                        <asp:FileUpload  ID="fuPic" runat="server" Width="190" />
                         <asp:HiddenField ID="hfPic" runat="server" Value='<%#Eval("Picture") %>' />
 
                     </EditItemTemplate>

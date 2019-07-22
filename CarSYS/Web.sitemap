@@ -14,13 +14,13 @@
 
       
       <siteMapNode url="" title ="品牌管理" description="">
-        <siteMapNode url="" title="品牌列表DG"  description="" />
+        <siteMapNode url="~/Page/BrandPage/BrandDataGrid.aspx" title="品牌列表DG"  description="" />
         <siteMapNode url="" title="品牌列表DL"  description="" />
         <siteMapNode url="" title="品牌列表RP"  description="" />
         
         <siteMapNode url="" title="品牌详情UC"  description="" />
-        <siteMapNode url="" title="品牌详情DV"  description="" />
-        <siteMapNode url="" title="增加品牌"  description="" />
+        <siteMapNode url="~/Page/BrandPage/BrandDetailsView.aspx" title="品牌详情DV"  description="" />
+        <siteMapNode url="~/Page/BrandPage/AddBrand.aspx" title="增加品牌"  description="" />
       </siteMapNode>
       
       <siteMapNode url="" title ="用户管理" description="">

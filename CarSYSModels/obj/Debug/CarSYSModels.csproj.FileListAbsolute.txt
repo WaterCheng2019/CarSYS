@@ -3,3 +3,8 @@ C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSModels\bin\Debug\CarSYSModels.
 C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSModels\obj\Debug\CarSYSModels.dll
 C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSModels\obj\Debug\CarSYSModels.pdb
 C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSModels\obj\Debug\CarSYSModels.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\CarSYS (2)\CarSYSModels\bin\Debug\CarSYSModels.dll
+C:\Users\HP\Desktop\CarSYS (2)\CarSYSModels\bin\Debug\CarSYSModels.pdb
+C:\Users\HP\Desktop\CarSYS (2)\CarSYSModels\obj\Debug\CarSYSModels.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\CarSYS (2)\CarSYSModels\obj\Debug\CarSYSModels.dll
+C:\Users\HP\Desktop\CarSYS (2)\CarSYSModels\obj\Debug\CarSYSModels.pdb

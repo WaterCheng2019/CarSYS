@@ -37,7 +37,7 @@ namespace CarSYS.Page.Car
         }
 
 
-        public List<Brand> bindBrands()
+        public List<CarSYSModels.Brand> bindBrands()
         {
             try
             {

@@ -88,6 +88,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Page\BrandPage\AddBrand.aspx" />
+    <Content Include="Page\BrandPage\BrandDataGrid.aspx" />
+    <Content Include="Page\BrandPage\BrandDetailsView.aspx" />
     <Content Include="Page\Car\AddCar.aspx" />
     <Content Include="Page\Car\CarUserControl.aspx" />
     <Content Include="Page\Car\CarDataGrid.aspx" />
@@ -128,6 +131,27 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BrandPage\AddBrand.aspx.cs">
+      <DependentUpon>AddBrand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BrandPage\AddBrand.aspx.designer.cs">
+      <DependentUpon>AddBrand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BrandPage\BrandDataGrid.aspx.cs">
+      <DependentUpon>BrandDataGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BrandPage\BrandDataGrid.aspx.designer.cs">
+      <DependentUpon>BrandDataGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BrandPage\BrandDetailsView.aspx.cs">
+      <DependentUpon>BrandDetailsView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BrandPage\BrandDetailsView.aspx.designer.cs">
+      <DependentUpon>BrandDetailsView.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page\Car\AddCar.aspx.cs">
       <DependentUpon>AddCar.aspx</DependentUpon>

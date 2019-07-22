@@ -22,7 +22,6 @@
                 font-size:18px;
                 font-family:'微软雅黑';
                 letter-spacing:8px;
-
             }
 
         #addCar table tr{
@@ -79,8 +78,6 @@
                return false;
            }
          }
-
-        
     </script>
 
     

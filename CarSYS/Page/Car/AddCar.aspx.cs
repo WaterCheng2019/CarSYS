@@ -71,7 +71,7 @@ namespace CarSYS.Page.Car
             {
                 CarSYSModels.Car c = new CarSYSModels.Car();
                 c.CarName = txtName.Text.Trim();
-                c.CarBrand = new Brand();
+                c.CarBrand = new CarSYSModels.Brand();
                 c.CarBrand.BrandId = Convert.ToInt32(ddlBrand.SelectedValue);
                 c.CarBrand.BrandName = ddlBrand.SelectedItem.Text;
                 c.Picture = fuPic.FileName;

@@ -5,3 +5,17 @@ C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSDAL\bin\Debug\CarSYSModels.pdb
 C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSDAL\obj\Debug\CarSYSDAL.csprojResolveAssemblyReference.cache
 C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSDAL\obj\Debug\CarSYSDAL.dll
 C:\Users\jack\Desktop\ASP.NET CarSYS\CarSYS\CarSYSDAL\obj\Debug\CarSYSDAL.pdb
+E:\MyDome\CarSYS\CarSYSDAL\bin\Debug\CarSYSDAL.dll
+E:\MyDome\CarSYS\CarSYSDAL\bin\Debug\CarSYSDAL.pdb
+E:\MyDome\CarSYS\CarSYSDAL\bin\Debug\CarSYSModels.dll
+E:\MyDome\CarSYS\CarSYSDAL\bin\Debug\CarSYSModels.pdb
+E:\MyDome\CarSYS\CarSYSDAL\obj\Debug\CarSYSDAL.csprojResolveAssemblyReference.cache
+E:\MyDome\CarSYS\CarSYSDAL\obj\Debug\CarSYSDAL.dll
+E:\MyDome\CarSYS\CarSYSDAL\obj\Debug\CarSYSDAL.pdb
+C:\Users\HP\Desktop\CarSYS (2)\CarSYSDAL\bin\Debug\CarSYSDAL.dll
+C:\Users\HP\Desktop\CarSYS (2)\CarSYSDAL\bin\Debug\CarSYSDAL.pdb
+C:\Users\HP\Desktop\CarSYS (2)\CarSYSDAL\bin\Debug\CarSYSModels.dll
+C:\Users\HP\Desktop\CarSYS (2)\CarSYSDAL\bin\Debug\CarSYSModels.pdb
+C:\Users\HP\Desktop\CarSYS (2)\CarSYSDAL\obj\Debug\CarSYSDAL.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\CarSYS (2)\CarSYSDAL\obj\Debug\CarSYSDAL.dll
+C:\Users\HP\Desktop\CarSYS (2)\CarSYSDAL\obj\Debug\CarSYSDAL.pdb

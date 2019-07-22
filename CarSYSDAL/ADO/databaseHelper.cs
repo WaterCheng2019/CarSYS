@@ -102,6 +102,17 @@ namespace CarSYSDAL
             }
         }
 
+        //执行带有输出参数的储存过程
+        public static int ExecuteNonQuery(SqlCommand cmd,CommandType cmdType,string spName,SqlParameter[] cmdParamerValues)
+        {
+            using (SqlConnection conn=new SqlConnection(connStr))
+            {
+                PrepareCommand(cmd, cmdType, conn, spName, cmdParamerValues);
+                int val = cmd.ExecuteNonQuery();
+                return val;
+            }
+        }
+
 
 
         #endregion

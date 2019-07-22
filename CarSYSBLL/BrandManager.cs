@@ -24,5 +24,35 @@ namespace CarSYSBLL
             }
         }
 
+        public void AddBrand(Brand b)
+        {
+ 
+            bs.AddBrand(b);
+
+
+        }
+
+        public int DelBrandById(int BrandId)
+        {
+            try
+            {
+                return bs.DelBrandById(BrandId);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public Brand GetBrandById(int BrandId)
+        {
+            return bs.GetBrandById(BrandId);
+        }
+
+        public int UpdateBrandById(Brand b)
+        {
+            return bs.UpdateBrandById(b);
+        }
+
     }
 }
